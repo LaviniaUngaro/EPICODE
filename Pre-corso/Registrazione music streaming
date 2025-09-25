@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming</title>
+</head>
+<body style="font-family:Georgia;">
+    <h1>Registrati qui! 👇🏼</h1>
+<form onsubmit="alert('Registrazione inviata!')">
+    <div>
+        <input type="text" placeholder="Il tuo nome"/>
+        <input type="text" placeholder="Il tuo cognome"/>
+    </div>
+    <br>
+    <div>
+        <input type="email" placeholder="Il tuo indirizzo email"/>
+        <input type="password" placeholder="Scegli una password"/>
+    </div>
+    <div>
+    <br>
+        <label>La tua data di nascita</label>
+        <input type="date" />
+    </div>
+    <br>
+    <div>
+        <input type="number" placeholder="Il tuo numero di telefono"/>
+    </div>
+    <div>
+        <p>Seleziona i tuoi generi preferiti:</p>
+        <input type="checkbox"/>
+        <label>Hip Hop</label><br>
+        <input type="checkbox"/>
+        <label>Rock</label><br>
+        <input type="checkbox"/>
+        <label>Elettronica/Dance</label><br>
+        <input type="checkbox"/>
+        <label>Jazz</label><br>
+        <input type="checkbox"/>
+        <label>Pop</label><br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+            <input type="radio" />
+            <label>Accetto i termini e le condizioni</label>
+    </div>
+    <br>
+    <button type="submit">Invia registrazione</button>
+</form>
+</body>
+</html>
